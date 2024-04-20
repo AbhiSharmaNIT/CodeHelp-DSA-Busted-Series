@@ -40,7 +40,8 @@ public:
             return -1;
         }
         else
-        {	int ans = arr[qfront];
+        {	
+            int ans = arr[qfront];
             arr[qfront] = -1;
             qfront++;
             if(qfront==rear){
